@@ -1,0 +1,13 @@
+{
+  "item.modgre.silver_coin": "Silver coin",
+  "item.modgre.gold_coin": "Gold coin",
+  "item.modgre.copper_coin": "Copper coin",
+  "item.modgre.bronze_coin": "Bronze coin",
+  "item.modgre.diamond_coin": "Diamon coin",
+
+  "block.modgre.coin_block": "BLock de piece",
+
+  "creativetab.modgre_tab": "MoDGRE",
+
+  "block.modgre.coin_transfert" : "Convert coins"
+}
