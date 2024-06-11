@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "Category": "misc",
+  "pattern": [
+    "123",
+    "456",
+    "789"
+  ],
+    "key": {
+      "1": {
+        "item": "modgre:strange_tablet_one"
+      },
+      "2": {
+        "item": "modgre:strange_tablet_two"
+      },
+      "3": {
+        "item": "modgre:strange_tablet_tree"
+      },
+      "4": {
+        "item": "modgre:strange_tablet_four"
+      },
+      "5": {
+        "item": "modgre:strange_tablet_five"
+      },
+      "6": {
+        "item": "modgre:strange_tablet_six"
+      },
+      "7": {
+        "item": "modgre:strange_tablet_seven"
+      },
+      "8": {
+        "item": "modgre:strange_tablet_eigh"
+      },
+      "9": {
+        "item": "modgre:strange_tablet_nine"
+      }
+  },
+  "result": {
+    "item": "modgre:trophee"
+  }
+}

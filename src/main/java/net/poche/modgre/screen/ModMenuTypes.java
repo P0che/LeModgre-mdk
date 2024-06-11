@@ -9,7 +9,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.poche.modgre.Modgre;
-import net.poche.modgre.screen.inventory.container.WalletContainerMenu;
+import net.poche.modgre.screen.coinvendor.CoinVendorMenu;
 
 public class ModMenuTypes {
 
@@ -17,7 +17,8 @@ public class ModMenuTypes {
 
 
     public static final RegistryObject<MenuType<CoinTransfertMenu>> COIN_TRANSFERT_MENU = registerMenuType("coin_transfert", CoinTransfertMenu::new);
-//    public static final RegistryObject<MenuType<CoinTransfertMenu>> WALLET_MENU = registerMenuType("wallet_MENU", WalletContainerMenu::new);
+    public static final RegistryObject<MenuType<CoinVendorMenu>> COIN_VENDOR = registerMenuType("coin_vendor", CoinVendorMenu::new);
+
 
     private static <T extends AbstractContainerMenu> RegistryObject<MenuType<T>> registerMenuType(String name, IContainerFactory<T> aNew) {
         return MENUS.register(name,()-> IForgeMenuType.create(aNew));

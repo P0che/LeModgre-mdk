@@ -1,6 +1,5 @@
 package net.poche.modgre.item.tab;
 
-import com.sun.jna.platform.win32.COM.IEnumVariant;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -25,9 +24,8 @@ public class ModCreativeTabs {
                 pOutput.accept(ModItems.DIAMOND_COIN.get());
                 pOutput.accept(ModItems.BRONZE_COIN.get());
 
-
-                pOutput.accept(ModBlocks.COIN_BLOCK.get());
                 pOutput.accept(ModBlocks.COIN_TRANSFERT.get());
+                pOutput.accept(ModBlocks.COIN_VENDOR.get());
             })).build());
 
     public static void register(IEventBus eventBus){

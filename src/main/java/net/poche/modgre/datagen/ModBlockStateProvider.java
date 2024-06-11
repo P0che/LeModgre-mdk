@@ -21,6 +21,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         simpleBlockWithItem(ModBlocks.COIN_TRANSFERT.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/coin_transfert")));
+        simpleBlockWithItem(ModBlocks.COIN_VENDOR.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/coin_vendor")));
+        simpleBlockWithItem(ModBlocks.TROPHEE.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/trophee")));
     }
 
 

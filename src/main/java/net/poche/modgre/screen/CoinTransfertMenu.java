@@ -40,6 +40,7 @@ public class CoinTransfertMenu extends AbstractContainerMenu {
             //Slot du GUI
             this.addSlot(new SlotItemHandler(iItemHandler,0,80,11));
             this.addSlot(new SlotItemHandler(iItemHandler,1,80,59));
+
         });
 
         addDataSlots(data);

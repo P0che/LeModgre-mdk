@@ -6,11 +6,10 @@ import net.poche.modgre.item.coin.CoinType;
 
 public class Coin extends Item {
     public CoinType type ;
-    public static final int STACK_SIZE_COIN = 100;
 
     @Override
     public int getMaxStackSize(ItemStack stack) {
-        return 100;
+        return 64;
     }
 
     public Coin(Properties pProperties, CoinType coinType) {

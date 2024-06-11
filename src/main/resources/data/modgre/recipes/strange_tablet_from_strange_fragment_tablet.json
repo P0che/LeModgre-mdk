@@ -1,0 +1,18 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "Category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "modgre:strange_tablet_fragment"
+    }
+ },
+  "result": {
+    "item": "modgre:strange_tablet"
+  }
+}

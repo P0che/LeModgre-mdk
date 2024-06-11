@@ -6,4 +6,6 @@ public enum CoinType {
 
     CoinType(int value) {
     }
+
+
 }

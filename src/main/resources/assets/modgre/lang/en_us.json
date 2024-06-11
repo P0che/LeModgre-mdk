@@ -5,9 +5,31 @@
   "item.modgre.bronze_coin": "Bronze coin",
   "item.modgre.diamond_coin": "Diamon coin",
 
-  "block.modgre.coin_block": "BLock de piece",
+  "item.modgre.strange_fragment": "Etrange fragment",
+  "item.modgre.strange_tablet": "Etrange tablette",
+  "item.modgre.strange_tablet_fragment": "Etrange morceau de tablette",
+  "item.modgre.strange_tablet_one": "Etrange morceau de tablette",
+  "item.modgre.strange_tablet_two": "Etrange morceau de tablette",
+  "item.modgre.strange_tablet_tree": "Etrange morceau de tablette",
+  "item.modgre.strange_tablet_four": "Etrange morceau de tablette",
+  "item.modgre.strange_tablet_five": "Etrange morceau de tablette",
+  "item.modgre.strange_tablet_six": "Etrange morceau de tablette",
+  "item.modgre.strange_tablet_seven": "Etrange morceau de tablette",
+  "item.modgre.strange_tablet_eigh": "Etrange morceau de tablette",
+  "item.modgre.strange_tablet_nine": "Etrange morceau de tablette",
+
 
   "creativetab.modgre_tab": "MoDGRE",
 
-  "block.modgre.coin_transfert" : "Convert coins"
+  "block.modgre.coin_transfert" : "Coin Converter",
+  "block.modgre.coin_vendor" : "Coin Vendor",
+  "block.modgre.trophee" : "Le trophée du brunogre",
+
+
+  "tooltip.modgre.fragment.tooltip.shift": "Un étrange morceau de pierre",
+  "tooltip.modgre.tablet_item.tooltip": "Une tablette isolée ne sert pas à grand chose",
+  "tooltip.modgre.tablet.tooltip": "ça doit bien avoir une utilité",
+  "tooltip.modgre.tablet_fragment.tooltip": "On peut voir quelques morceaux d'inscription... ",
+  "tooltip.modgre.trophee.tooltip": "Merci pour les streams, continue comme ça <3 "
+
 }

@@ -14,6 +14,11 @@ public class ModBlockEntities {
 
     public static final RegistryObject<BlockEntityType<CoinTransfertBlockEntity>> COIN_TRANSFERT_BE = BLOCK_ENTITIES.register("coin_transfert_be", ()-> BlockEntityType.Builder.of(CoinTransfertBlockEntity::new,
             ModBlocks.COIN_TRANSFERT.get()).build(null));
+    public static final RegistryObject<BlockEntityType<CoinVendorBlockEntity>> COIN_VENDOR_BE = BLOCK_ENTITIES.register("coin_vendor_be", ()-> BlockEntityType.Builder.of(CoinVendorBlockEntity::new,
+            ModBlocks.COIN_VENDOR.get()).build(null));
+
+
+
 
     public static void register(IEventBus event ){
         BLOCK_ENTITIES.register(event);

@@ -17,7 +17,11 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
+
+
         this.dropSelf(ModBlocks.COIN_TRANSFERT.get());
+        this.dropSelf(ModBlocks.COIN_VENDOR.get());
+        this.dropSelf(ModBlocks.TROPHEE.get());
     }
 
 

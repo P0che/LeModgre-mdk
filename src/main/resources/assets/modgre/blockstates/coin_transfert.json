@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "modgre:block/coin_transfert"
+    }
+  }
+}
