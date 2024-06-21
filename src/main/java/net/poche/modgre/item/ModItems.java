@@ -32,8 +32,6 @@ public class ModItems {
     public static final RegistryObject<Item> STRANGE_TABLET_FRAGMENT = ITEMS.register("strange_tablet_fragment",()-> new StrangeTabletFragment(new Item.Properties()));
 
 
-
-
     public static void register(IEventBus eventBus){
        ITEMS.register(eventBus);
     }

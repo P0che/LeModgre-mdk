@@ -9,6 +9,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.poche.modgre.Modgre;
 import net.poche.modgre.block.ModBlocks;
+import net.poche.modgre.item.CommandItems;
 import net.poche.modgre.item.ModItems;
 
 public class ModCreativeTabs {
@@ -26,6 +27,8 @@ public class ModCreativeTabs {
 
                 pOutput.accept(ModBlocks.COIN_TRANSFERT.get());
                 pOutput.accept(ModBlocks.COIN_VENDOR.get());
+
+                pOutput.accept(CommandItems.ADD_CLAIM.get());
             })).build());
 
     public static void register(IEventBus eventBus){

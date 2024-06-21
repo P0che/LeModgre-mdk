@@ -18,6 +18,11 @@
   "item.modgre.strange_tablet_eigh": "Etrange morceau de tablette",
   "item.modgre.strange_tablet_nine": "Etrange morceau de tablette",
 
+  "item.modgre.command.fail": "Fail to execute action",
+  "item.modgre.add_claim": "+1 Claimable chunk",
+
+
+
 
   "creativetab.modgre_tab": "MoDGRE",
 
