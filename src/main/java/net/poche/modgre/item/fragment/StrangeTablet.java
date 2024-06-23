@@ -9,6 +9,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
+import net.poche.modgre.event.ModEvents;
 import net.poche.modgre.item.ModItems;
 import org.jetbrains.annotations.Nullable;
 
@@ -28,6 +29,12 @@ public class StrangeTablet extends Fragment{
     public InteractionResultHolder<ItemStack> use(Level pLevel, Player pPlayer, InteractionHand pUsedHand) {
         pPlayer.getItemInHand(pUsedHand).hurtAndBreak(1,pPlayer,(p)->p.broadcastBreakEvent(pPlayer.getUsedItemHand()));
         pPlayer.getInventory().add(new ItemStack(getRandomisedItem()));
+        if(!pLevel.isClientSide){
+
+            pPlayer.changeDimension(pPlayer.getServer().getLevel(Level.NETHER));
+            ModEvents.startTimer(pPlayer.createCommandSourceStack().getPlayer());
+        }
+
 
         return InteractionResultHolder.success(pPlayer.getItemInHand(pUsedHand));
     }

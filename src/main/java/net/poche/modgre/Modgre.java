@@ -21,6 +21,7 @@ import net.poche.modgre.loot.ModLootModifier;
 import net.poche.modgre.screen.CoinTransfertScreen;
 import net.poche.modgre.screen.ModMenuTypes;
 import net.poche.modgre.screen.coinvendor.CoinVendorScreen;
+import net.poche.modgre.villager.ModVillager;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -42,6 +43,7 @@ public class Modgre
         ModBlockEntities.register(modEventBus);
         ModMenuTypes.register(modEventBus);
         ModLootModifier.register(modEventBus);
+        ModVillager.register(modEventBus);
 //        ModPainting.register(modEventBus);
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

@@ -21,6 +21,9 @@
 
   "creativetab.modgre_tab": "MoDGRE",
 
+
+  "entity.minecraft.villager.modgre.billionairmaster": "Roi de la thune",
+
   "block.modgre.coin_transfert" : "Coin Converter",
   "block.modgre.coin_vendor" : "Coin Vendor",
   "block.modgre.trophee" : "Le trophée du brunogre",

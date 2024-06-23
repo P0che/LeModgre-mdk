@@ -23,6 +23,7 @@ public class CoinTransfertMenu extends AbstractContainerMenu {
 
     public CoinTransfertMenu(int pContainerId, Inventory inventory, FriendlyByteBuf extraData){
         this(pContainerId,inventory,inventory.player.level().getBlockEntity(extraData.readBlockPos()),new SimpleContainerData(2));
+
     }
 
 

@@ -24,7 +24,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Modgre.MOD_ID);
     public static final RegistryObject<Block> COIN_TRANSFERT  = registerBlock("coin_transfert", () -> new CoinTransfertBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
     public static final RegistryObject<Block> COIN_VENDOR  = registerBlock("coin_vendor", () -> new CoinVendorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
-    public static final RegistryObject<Block> TROPHEE  = registerBlock("trophee", () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()){
+    public static final RegistryObject<Block> TROPHEE  = registerBlock("trophee", () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)){
         @Override
         public void appendHoverText(ItemStack pStack, @Nullable BlockGetter pLevel, List<Component> pTooltip, TooltipFlag pFlag) {
             pTooltip.add( Component.translatable("tooltip.modgre.trophee.tooltip"));
