@@ -15,6 +15,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.poche.modgre.block.ModBlocks;
 import net.poche.modgre.block.entity.ModBlockEntities;
+import net.poche.modgre.item.CommandItems;
 import net.poche.modgre.item.ModItems;
 import net.poche.modgre.item.tab.ModCreativeTabs;
 import net.poche.modgre.loot.ModLootModifier;
@@ -37,6 +38,7 @@ public class Modgre
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        CommandItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModCreativeTabs.register(modEventBus);
         ModBlockEntities.register(modEventBus);
@@ -89,8 +91,6 @@ public class Modgre
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-
-
             MenuScreens.register(ModMenuTypes.COIN_TRANSFERT_MENU.get(), CoinTransfertScreen::new);
             MenuScreens.register(ModMenuTypes.COIN_VENDOR.get(), CoinVendorScreen::new);
         }

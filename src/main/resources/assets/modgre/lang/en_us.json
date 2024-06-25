@@ -6,6 +6,15 @@
   "item.modgre.diamond_coin": "Diamond coin",
   "item.modgre.bourse": "Bourse",
 
+  "item.modgre.command.fail": "Fail to execute action",
+  "item.modgre.command.success": "Action executed",
+
+  "item.modgre.add_claim": "+1 Claimable chunk",
+  "item.modgre.add_claim.success": "Max claims increased by 1",
+  "item.modgre.add_claim.fail": "Fail to increase max claims",
+
+
+
 
   "creativetab.modgre_tab": "MoDGRE",
 
