@@ -7,7 +7,12 @@
   "item.modgre.bourse": "Bourse",
 
   "item.modgre.command.fail": "Impossible d'executer l'action",
+  "item.modgre.command.success": "Action executée",
+
   "item.modgre.add_claim": "+1 Chunk réclamable",
+  "item.modgre.add_claim.success": "Nombre de claim max augmenté de 1",
+  "item.modgre.add_claim.fail": "Impossible de monter le nombre de claim max",
+
 
   "creativetab.modgre_tab": "MoDGRE",
 

@@ -17,7 +17,7 @@ import net.minecraft.world.level.Level;
 import org.slf4j.Logger;
 
 public class Command extends Item {
-    private static final Logger LOGGER = LogUtils.getLogger();
+    //private static final Logger LOGGER = LogUtils.getLogger();
     public String command;
 
     public Command(Properties properties, String command) {
@@ -59,11 +59,21 @@ public class Command extends Item {
 
         ItemStack itemStack = player.getItemInHand(hand);
 
+        Component successMessage = Component.translatable(this.getDescriptionId()+".success");
+        Component failMessage = Component.translatable(this.getDescriptionId()+".fail");
+
+        boolean successMessageExists = !successMessage.getString().equals(this.getDescriptionId()+".success");
+        boolean failMessageExists = !failMessage.getString().equals(this.getDescriptionId()+"+.fail");
+
         if (!player.isCreative() && commandSuccess) {
             itemStack.hurtAndBreak(1,player,(p)->p.broadcastBreakEvent(player.getUsedItemHand()));
         }
+
         if(!commandSuccess){
-            player.displayClientMessage(Component.translatable("item.modgre.command.fail"),true);
+            player.displayClientMessage(failMessageExists ? failMessage : Component.translatable("item.modgre.command.fail"),true);
+        }
+        if(commandSuccess){
+            player.displayClientMessage(successMessageExists ?  successMessage : Component.translatable("item.modgre.command.success"),true);
         }
 
         return new InteractionResultHolder<>(commandSuccess ? InteractionResult.SUCCESS : InteractionResult.FAIL, player.getItemInHand(hand));
