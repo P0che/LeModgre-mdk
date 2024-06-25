@@ -10,11 +10,11 @@ import net.poche.modgre.Modgre;
 public class CommandItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Modgre.MOD_ID);
 
-    private static final String ADD_CLAIM_COMMAND = "give %player% minecraft:baked_potato";
+    private static final String ADD_CLAIM_COMMAND = "ftbchunks admin extra_claim_chunks %player% add 1 ";
 
 
     public static final RegistryObject<Item> ADD_CLAIM = ITEMS.register("add_claim",()-> new Command(
-            new Item.Properties().durability(3),
+            new Item.Properties().durability(1),
             ADD_CLAIM_COMMAND
     ));
 
