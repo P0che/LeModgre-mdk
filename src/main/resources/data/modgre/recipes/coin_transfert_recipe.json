@@ -1,0 +1,25 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "Category": "misc",
+  "pattern": [
+    " 2 ",
+    "313",
+    "333"
+  ],
+  "key": {
+    "1": {
+      "item": "modgre:bourse"
+    },
+    "2": {
+      "item": "minecraft:hopper"
+    },
+    "3": {
+      "item": "minecraft:stone"
+
+    }
+  },
+  "result": {
+    "item": "modgre:coin_transfert"
+  }
+}

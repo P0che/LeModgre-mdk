@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "Category": "misc",
+  "pattern": [
+    " 2 ",
+    "134",
+    "555"
+  ],
+    "key": {
+      "1": {
+        "item": "modgre:copper_coin"
+      },
+      "2": {
+        "item": "minecraft:string"
+      },
+      "3": {
+        "item": "modgre:bronze_coin"
+      },
+      "4": {
+        "item": "modgre:silver_coin"
+      },
+      "5": {
+        "item": "minecraft:leather"
+      }
+  },
+  "result": {
+    "item": "modgre:bourse"
+  }
+}

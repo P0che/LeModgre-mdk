@@ -4,20 +4,7 @@
   "item.modgre.copper_coin": "Brunogre de cuivre",
   "item.modgre.bronze_coin": "Brunogre de bronze",
   "item.modgre.diamond_coin": "Brunogre de diamant",
-
-
-  "item.modgre.strange_fragment": "Etrange fragment",
-  "item.modgre.strange_tablet": "Etrange tablette",
-  "item.modgre.strange_tablet_fragment": "Etrange morceau de tablette",
-  "item.modgre.strange_tablet_one": "Etrange morceau de tablette",
-  "item.modgre.strange_tablet_two": "Etrange morceau de tablette",
-  "item.modgre.strange_tablet_tree": "Etrange morceau de tablette",
-  "item.modgre.strange_tablet_four": "Etrange morceau de tablette",
-  "item.modgre.strange_tablet_five": "Etrange morceau de tablette",
-  "item.modgre.strange_tablet_six": "Etrange morceau de tablette",
-  "item.modgre.strange_tablet_seven": "Etrange morceau de tablette",
-  "item.modgre.strange_tablet_eigh": "Etrange morceau de tablette",
-  "item.modgre.strange_tablet_nine": "Etrange morceau de tablette",
+  "item.modgre.bourse": "Bourse",
 
   "item.modgre.command.fail": "Impossible d'executer l'action",
   "item.modgre.add_claim": "+1 Chunk réclamable",
@@ -28,10 +15,6 @@
   "block.modgre.coin_vendor" : "Cash Converteur",
 
 
-  "tooltip.modgre.fragment.tooltip.shift": "Un étrange morceau de pierre",
-  "tooltip.modgre.tablet_item.tooltip": "Une tablette isolée ne sert pas à grand chose",
-  "tooltip.modgre.tablet.tooltip": "ça doit bien avoir une utilité",
-  "tooltip.modgre.tablet_fragment.tooltip": "On peut voir quelques morceaux d'inscription... ",
   "tooltip.modgre.trophee.tooltip": "Merci pour les streams, continue comme ça <3 "
 
 }

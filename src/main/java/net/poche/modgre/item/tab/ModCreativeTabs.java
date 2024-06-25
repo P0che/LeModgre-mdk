@@ -24,6 +24,7 @@ public class ModCreativeTabs {
                 pOutput.accept(ModItems.COPPER_COIN.get());
                 pOutput.accept(ModItems.DIAMOND_COIN.get());
                 pOutput.accept(ModItems.BRONZE_COIN.get());
+                pOutput.accept(ModItems.BOURSE.get());
 
                 pOutput.accept(ModBlocks.COIN_TRANSFERT.get());
                 pOutput.accept(ModBlocks.COIN_VENDOR.get());
