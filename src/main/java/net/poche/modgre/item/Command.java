@@ -99,12 +99,7 @@ public class Command extends Item {
             }
 
             Commands commands = server.getCommands();
-            int exec = commands.performPrefixedCommand(server.createCommandSourceStack(), command);
-            if(exec <= 0) {
-                return false;
-            }
-
-            return true;
+            return commands.performPrefixedCommand(server.createCommandSourceStack(), command) > 0;
         }
 
         return false;
