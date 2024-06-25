@@ -1,10 +1,7 @@
 
-
-
-
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "modgre:item/tablet/tablet_four"
+    "layer0": "modgre:item/bourse"
   }
 }
