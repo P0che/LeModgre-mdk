@@ -10,7 +10,7 @@ import net.poche.modgre.Modgre;
 public class CommandItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Modgre.MOD_ID);
 
-    private static final String ADD_CLAIM_COMMAND = "ftbchunks admin extra_claim_chunks %player% add 1 ";
+    private static final String ADD_CLAIM_COMMAND = "ftbchunks admin extra_claim_chunks %player% add 1";
 
 
     public static final RegistryObject<Item> ADD_CLAIM = ITEMS.register("add_claim",()-> new Command(
