@@ -536,8 +536,6 @@ public enum ItemException {
     YELLOW_TERRACOTTA(Items.YELLOW_TERRACOTTA, ModItems.COPPER_COIN.get(),1,1),
     YELLOW_WOOL(Items.YELLOW_WOOL, ModItems.COPPER_COIN.get(),1,1),
 
-    TROPHEE(ModBlocks.TROPHEE.get().asItem(), ModItems.GOLD_COIN.get(),1,1);
-
     private final Item item;
     private final Item type;
     private final int amountOutput;
